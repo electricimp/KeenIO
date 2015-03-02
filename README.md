@@ -59,5 +59,5 @@ eventData <- {
 keen.sendEvent("tempBugs", eventData)
 ```
 
-# License
+## License
 The Keen library is licensed under the [MIT License](./LICENSE).
