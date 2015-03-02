@@ -3,7 +3,7 @@
 
 This library wraps the Keen IO data collection API.
 
-## Usage
+## Class Usage
 
 ### Constructor
 
