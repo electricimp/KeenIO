@@ -39,7 +39,7 @@ keen.sendEvent("tempBugs", eventData, function(response) {
 })
 ```
 
-### getTimestamp(*unixTimestamp*, *millis*)
+### getTimestamp(*timestamp*, *millis*)
 
 The **getTimestamp()** method can be used to return a KeenIO-formatted timestamp. The first parameter is a Unix timestamp such as that returned by Squirrel’s [time()](https://electricimp.com/docs/squirrel/system/time/) function. The second parameter is optional: a millisecond value. The example below demonstrates how to format your data so Keen can take advantage of the timestamp:
 
