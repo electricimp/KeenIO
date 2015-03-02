@@ -13,7 +13,7 @@ You instantiate the KeenIO class with your Project ID and Write API Key:
 keen <- KeenIO(KEEN_PROJECT_ID, KEEN_WRITE_API_KEY)
 ```
 
-### Functions
+### Class Methods
 
 ### sendEvent(*collectionName*, *eventData*, *callback*)
 
