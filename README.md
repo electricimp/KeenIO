@@ -13,7 +13,9 @@ You instantiate the KeenIO class with your Project ID and Write API Key:
 keen <- KeenIO(KEEN_PROJECT_ID, KEEN_WRITE_API_KEY)
 ```
 
-## sendEvent(*collectionName*, *eventData*, *callback*)
+### Functions
+
+### sendEvent(*collectionName*, *eventData*, *callback*)
 
 The **sendEvent()** method allows you to send an event to a particular method. It takes the name of the collection you are posting to as a string, and the event data to be pushed. You can also specify a third, optional parameter: a callback function. If you provide a callback, the request will be made asyncronously and the callback will be fired when the request is complete. If the callback function is ommited, the request will be made syncronously, and result will be returned. The following example illustrates both modes:
 
