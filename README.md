@@ -15,7 +15,7 @@ keen <- KeenIO(KEEN_PROJECT_ID, KEEN_WRITE_API_KEY)
 
 ### Class Methods
 
-### sendEvent(*collectionName*, *eventData*, *callback*)
+### sendEvent(*collectionName*, *eventData*, [*callback*])
 
 The **sendEvent()** method allows you to send an event to a particular method. It takes the name of the collection you are posting to as a string, and the event data to be pushed. You can also specify a third, optional parameter: a callback function. If you provide a callback, the request will be made asyncronously and the callback will be fired when the request is complete. If the callback function is ommited, the request will be made syncronously, and result will be returned. The following example illustrates both modes:
 
@@ -41,7 +41,7 @@ keen.sendEvent("tempBugs", eventData, function(response) {
 })
 ```
 
-### getTimestamp(*timestamp*, *millis*)
+### getTimestamp(*timestamp*, [*millis*])
 
 The **getTimestamp()** method can be used to return a KeenIO-formatted timestamp. The first parameter is a Unix timestamp such as that returned by Squirrel’s [time()](https://electricimp.com/docs/squirrel/system/time/) function. The second parameter is optional: a millisecond value. The example below demonstrates how to format your data so Keen can take advantage of the timestamp:
 
@@ -62,4 +62,5 @@ keen.sendEvent("tempBugs", eventData)
 ```
 
 ## License
+
 The Keen library is licensed under the [MIT License](./LICENSE).
