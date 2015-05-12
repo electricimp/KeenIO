@@ -3,7 +3,7 @@
 
 This library wraps the Keen IO data collection API.
 
-**To add this library to your project, add** `#require "KeenIO.class.nut:1.0.1"` **to the top of your agent code**
+**To add this library to your project, add** `#require "KeenIO.class.nut:1.0.0"` **to the top of your agent code**
 
 ## Class Usage
 
