@@ -1,9 +1,12 @@
-#KeenIO
+# Keen IO
 [Keen IO](http://keen.io) is a hosted service that allows you to easily push and query event-based data.
 
 This library wraps the Keen IO data collection API.
 
 **To add this library to your project, add** `#require "KeenIO.class.nut:1.0.0"` **to the top of your agent code**
+
+### Community-Supported SDK
+This is an _unofficial_ community supported SDK. If you find any issues or have a request please post an [issue](https://github.com/electricimp/keenio/issues).
 
 ## Class Usage
 
