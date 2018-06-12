@@ -34,7 +34,7 @@ server.log(result.statuscode + ": " + result.body);
 
 // Send an event asynchronously
 keen.sendEvent("tempBugs", eventData, function(response) {
-	server.log(response.statuscode + ": " + response.body);
+  server.log(response.statuscode + ": " + response.body);
 })
 ```
 
